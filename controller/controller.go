@@ -6,7 +6,6 @@ import (
 
 )
 
-
 func CountPair(array []int){
 	fmt.Println("Answered number 1 ")
 	pair := make(map[int]struct{})
@@ -36,7 +35,6 @@ func CountValleys(n int, steps string){
 		}else{
 			altitude--
 		}
-
 		if altitude == 0 && steps[i] == 'U' {
 			valley++
 		}
